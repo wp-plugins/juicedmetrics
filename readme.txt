@@ -1,5 +1,5 @@
 === JuicedMetrics ===
-Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, www.openspacesmarketing.com
+Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, EnvisionYourWebsite
 Donate link: http://donate.openspacesmarketing.com
 Tags: Juiced Metrics, Sales Funnel, Conversion Funnels, JuicedMetrics.com
 Requires at least: 3.0.1
@@ -49,10 +49,10 @@ Yes, JuicedMetrics is designed as a plugin for Wordpress.
 
 == Screenshots ==
 
-1. images/JuicedMetrics-01.png Setting up reports  
-2. JuicedMetrics-02.png List of competitors 
-3. JuicedMetrics-03.png Competitor ranking
-4. JuicedMetrics-04.png Highlight your website to see how you stack up with your competitor. 
+1. screenshot-1.png Setting up reports  
+2. screenshot-2.png List of competitors 
+3. screenshot-3.png Competitor ranking
+4. screenshot-4.png Highlight your website to see how you stack up with your competitor. 
 
 == Arbitrary section ==
 
@@ -72,5 +72,5 @@ Upgrade notices describe the reason a user should upgrade.  No more than 300 cha
 
 == Arbitrary section ==
 
-JuicedMetrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value. If you find any issues with the plugin please use this form to let us know [Issues](http://envisionyourwebsite.com/juicedmetrics "Your issues or improvments“)
+JuicedMetrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value. If you find any issues with the plugin please use this form to let us know how we can help http://envisionyourwebsite.com/juicedmetrics 
 
