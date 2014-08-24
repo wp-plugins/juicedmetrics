@@ -1,4 +1,4 @@
-=== JuicedMetrics ===
+=== Juiced Metrics ===
 Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, EnvisionYourWebsite
 Donate link: http://donate.openspacesmarketing.com
 Tags: Juiced Metrics, Sales Funnel, Conversion Funnels, JuicedMetrics.com
@@ -8,13 +8,13 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-JuicedMetrics integration is a website analytics reporting tool to improve sales.
+Juiced Metrics integration is a website analytics reporting tool to improve sales.
 
 Get started in minutes because instillation simple. You can create report to see where you conversion funnels are lacking. By selecting your Wordpress pages you can see where sales cycle or lead funnel are falling short. Trackable pages can be created to follow how traffic is reacting so you know immediately what needs to be improved.. This will show you which pages are working and which need help. By knowing information like this it can help you gain more sales by applying more emphasis on what is broken so you can fix your weakest links! 
 
 == Description ==
 
-JuicedMetrics with Wordpress integration reports and presents the traffic to your site, the analytics of what they do so you can tune your sales process, your page content, to reach your target market and convert prospects into customers. This is a must have utility for anyone using Wordpress.
+Juiced Metrics with Wordpress integration reports and presents the traffic to your site, the analytics of what they do so you can tune your sales process, your page content, to reach your target market and convert prospects into customers. This is a must have utility for anyone using Wordpress.
 
 
 == Installation ==
@@ -23,7 +23,7 @@ This section describes how to install the plugin and get it set up and working.
 
 1. Login to your Wordpress website
 2. Navigate to the Plugins through the category in left column below the Dashboard. http://www.your-domain.columnom/wp-admin/plugins.php
-3. Select "Add New" and in the field type JuicedMetrics by EnvisionYour
+3. Select "Add New" and in the field type Juiced Metrics
 4. Download JuicedMetrics and Install the plugin
 5. Activate Plugin
 6. Configure JuicedMetrics plugin, or contact www.openspacesmarketing.com/jeffgillis to have it configured for you.
@@ -37,13 +37,13 @@ Alternative FTP installation method
 
 == Frequently Asked Questions ==
 
-= Does JuicedMetrics work with Wordpress? =
+= Does Juiced Metrics work with Wordpress? =
 
-Yes, JuicedMetrics is engineered to work with Wordpress integrations.
+Yes, Juiced Metrics is engineered to work with Wordpress integrations.
 
-= Will JuicedMetrics work with Wordpress? =
+= Will Juiced Metrics work with Wordpress? =
 
-Yes, JuicedMetrics is designed as a plugin for Wordpress.
+Yes, Juiced Metrics is designed as a plugin for Wordpress.
 
 
 
@@ -56,7 +56,7 @@ Yes, JuicedMetrics is designed as a plugin for Wordpress.
 
 == Arbitrary section ==
 
-JuicedMetrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value.
+Juiced Metrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value.
 
 
 == Changelog ==
@@ -72,5 +72,5 @@ Upgrade notices describe the reason a user should upgrade.  No more than 300 cha
 
 == Arbitrary section ==
 
-JuicedMetrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value. If you find any issues with the plugin please use this form to let us know how we can help http://envisionyourwebsite.com/juicedmetrics 
+Juiced Metrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value. If you find any issues with the plugin please use this form to let us know how we can help http://envisionyourwebsite.com/juicedmetrics 
 
