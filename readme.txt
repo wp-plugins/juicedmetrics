@@ -1,20 +1,22 @@
-=== Juiced Metrics ===
-Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, EnvisionYourWebsite
+=== JuicedMetrics ===
+Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, www.openspacesmarketing.com
 Donate link: http://donate.openspacesmarketing.com
-Tags: Juiced Metrics, Sales Funnel, Conversion Funnels, JuicedMetrics.com
+Tags: Conversion Funnels, Juiced Metrics, JuicedMetrics.com, Sales Funnel, competitor analysis, lead magnet conversion rate
 Requires at least: 3.0.1
-Tested up to: 3.9.1
-Stable tag: 1.0
+Tested up to: 4.0
+Stable tag: 2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Juiced Metrics integration is a website analytics reporting tool to improve sales.
-
-Get started in minutes because instillation simple. You can create report to see where you conversion funnels are lacking. By selecting your Wordpress pages you can see where sales cycle or lead funnel are falling short. Trackable pages can be created to follow how traffic is reacting so you know immediately what needs to be improved.. This will show you which pages are working and which need help. By knowing information like this it can help you gain more sales by applying more emphasis on what is broken so you can fix your weakest links! 
+Juiced Metrics is a website analytics reporting tool to monitor conversion rates and to monitor competitive website traffic and engagement. 
 
 == Description ==
 
-Juiced Metrics with Wordpress integration reports and presents the traffic to your site, the analytics of what they do so you can tune your sales process, your page content, to reach your target market and convert prospects into customers. This is a must have utility for anyone using Wordpress.
+Juiced Metrics is a Wordpress plugin that enables you to conduct simple competitive research and to monitor your website conversion rates for a few selected series of pages.  
+
+Monitor the overall relative website traffic of all websites in your market. Understand the relative engagement rates for each website.  This can allow you to tune your message and traffic strategy to engage and connect with more people and ultimately customers.
+
+Monitoring your conversion rates for a series of website pages also known a a sales funnel can help you improve sales and list building for your business.
 
 
 == Installation ==
@@ -23,7 +25,7 @@ This section describes how to install the plugin and get it set up and working.
 
 1. Login to your Wordpress website
 2. Navigate to the Plugins through the category in left column below the Dashboard. http://www.your-domain.columnom/wp-admin/plugins.php
-3. Select "Add New" and in the field type Juiced Metrics
+3. Select "Add New" and in the field type JuicedMetrics by EnvisionYourWebsite.com
 4. Download JuicedMetrics and Install the plugin
 5. Activate Plugin
 6. Configure JuicedMetrics plugin, or contact www.openspacesmarketing.com/jeffgillis to have it configured for you.
@@ -31,35 +33,38 @@ This section describes how to install the plugin and get it set up and working.
 
 Alternative FTP installation method
 
-1. Upload `juicedmetrics` entire folder or compressed zip file to the `/wp-content/plugins/` directory. If you have uploaded a zip then extract it.
+1. Upload `JuicedMetrics.php` to the `/wp-content/plugins/` directory folder
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place this string of code  `<?php do_action('plugin_name_hook'); ?>` in your templates in order track users through your conversion funnels.
+3. Place this string of code  `<?php do_action('plugin_name_hook'); ?>` in your templates
 
 == Frequently Asked Questions ==
 
-= Does Juiced Metrics work with Wordpress? =
+= Does JuicedMetrics work with Wordpress? =
 
-Yes, Juiced Metrics is engineered to work with Wordpress integrations.
+Yes, JuicedMetrics is engineered to work with Wordpress integrations.
 
-= Will Juiced Metrics work with Wordpress? =
+= Will JuicedMetrics work with Wordpress? =
 
-Yes, Juiced Metrics is designed as a plugin for Wordpress.
-
+Yes, JuicedMetrics is designed as a plugin for Wordpress.
 
 
 == Screenshots ==
 
-1. screenshot-1.png Setting up reports  
-2. screenshot-2.png List of competitors 
-3. screenshot-3.png Competitor ranking
-4. screenshot-4.png Highlight your website to see how you stack up with your competitor. 
+1. JuicedMetrics-01.png Setting up reports  
+2. JuicedMetrics-02.png List of competitors 
+3. JuicedMetrics-03.png Competitor ranking
+4. JuicedMetrics-04.png Highlight your website to see how you stack up with your competitor. 
 
 == Arbitrary section ==
 
-Juiced Metrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value.
+JuicedMetrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value.
 
 
 == Changelog ==
+
+= 2.0 =
+* Changes to javascript files to make them use internal WP files
+* Added new icons and retina banner cover to support version 4.0
 
 = 1.0 =
 * A change since the previous version.
@@ -67,10 +72,14 @@ Juiced Metrics is in active development and version control, revisions, updates 
 
 == Upgrade Notice ==
 
+= 2.0 =
+* Changes to javascript files to make them use internal WP files
+* Added new icons and retina banner cover to support version 4.0
+
 = 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+* Upgrade notices describe the reason a user should upgrade. No more than 300 characters.
 
 == Arbitrary section ==
 
-Juiced Metrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value. If you find any issues with the plugin please use this form to let us know how we can help http://envisionyourwebsite.com/juicedmetrics 
 
+JuicedMetrics is in active development and version control, revisions, updates and enhancements are being developed to better serve you and provide enhanced value.
