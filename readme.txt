@@ -1,10 +1,10 @@
 === JuicedMetrics ===
-Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, www.openspacesmarketing.com
+Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, EnvisionYourWebsite, www.openspacesmarketing.com
 Donate link: http://donate.openspacesmarketing.com
 Tags: Conversion Funnels, Juiced Metrics, JuicedMetrics.com, Sales Funnel, competitor analysis, lead magnet conversion rate
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 2
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,10 +25,9 @@ This section describes how to install the plugin and get it set up and working.
 
 1. Login to your Wordpress website
 2. Navigate to the Plugins through the category in left column below the Dashboard. http://www.your-domain.columnom/wp-admin/plugins.php
-3. Select "Add New" and in the field type JuicedMetrics by EnvisionYourWebsite.com
+3. Select "Add New" and in the field type JuicedMetrics
 4. Download JuicedMetrics and Install the plugin
 5. Activate Plugin
-6. Configure JuicedMetrics plugin, or contact www.openspacesmarketing.com/jeffgillis to have it configured for you.
 
 
 Alternative FTP installation method
@@ -62,7 +61,13 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Changelog ==
 
+= 2.1.0 =
+* Fixed page views and time on page for the reporting data tables.
+
 = 2.0 =
+* Fixed error in the mapping of pages in sales funnel
+
+= 1.5 =
 * Changes to javascript files to make them use internal WP files
 * Added new icons and retina banner cover to support version 4.0
 
@@ -72,8 +77,14 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Upgrade Notice ==
 
+= 2.1.0 =
+* Fixed page views and time on page for the reporting data tables.
+
 = 2.0 =
-* Changes to javascript files to make them use internal WP files
+* Fixed error in the mapping of pages in sales funnel. You should upgrade if you are seeing any errors.
+
+= 1.5 =
+* Changes to javascript files to make them use internal WP files. You should upgrade if you are seeing any errors.
 * Added new icons and retina banner cover to support version 4.0
 
 = 1.0 =
