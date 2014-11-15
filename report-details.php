@@ -1,3 +1,5 @@
+<script type="text/javascript" src="<?php echo plugins_url("assets/javascripts/d3.js", __FILE__);?>"></script>
+<script type="text/javascript" src="<?php echo plugins_url("assets/javascripts/d3-funnel-charts.js", __FILE__);?>"></script>
 <style type="text/css">
 
 .setup

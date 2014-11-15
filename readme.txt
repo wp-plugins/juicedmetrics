@@ -61,6 +61,9 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Changelog ==
 
+= 2.1.0 =
+* Fixed page views and time on page for the reporting data tables.
+
 = 2.0 =
 * Fixed error in the mapping of pages in sales funnel
 
@@ -73,6 +76,9 @@ JuicedMetrics is in active development and version control, revisions, updates a
 * Another change.
 
 == Upgrade Notice ==
+
+= 2.1.0 =
+* Fixed page views and time on page for the reporting data tables.
 
 = 2.0 =
 * Fixed error in the mapping of pages in sales funnel. You should upgrade if you are seeing any errors.
