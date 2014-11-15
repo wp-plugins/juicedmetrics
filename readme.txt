@@ -4,7 +4,7 @@ Donate link: http://donate.openspacesmarketing.com
 Tags: Conversion Funnels, Juiced Metrics, JuicedMetrics.com, Sales Funnel, competitor analysis, lead magnet conversion rate
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 2.1.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,23 +61,25 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Changelog ==
 
-= 2.1.0 =
-* Fixed page views and time on page for the reporting data tables.
+= 2.1 =
+* Fixed page views and time on page for the reporting data tables
+* Added save javascript
 
 = 2.0 =
 * Fixed error in the mapping of pages in sales funnel
+* Fix update issues
 
 = 1.5 =
 * Changes to javascript files to make them use internal WP files
 * Added new icons and retina banner cover to support version 4.0
 
 = 1.0 =
-* A change since the previous version.
-* Another change.
+* A change since the previous version
+* Another change
 
 == Upgrade Notice ==
 
-= 2.1.0 =
+= 2.1 =
 * Fixed page views and time on page for the reporting data tables.
 
 = 2.0 =
