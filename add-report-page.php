@@ -114,9 +114,9 @@ color:#000;
 
 {
 
-color:#818AFC;
+  color:#818AFC;
 
-text-decoration:underline;
+  text-decoration:underline;
 
 }
 
@@ -126,9 +126,9 @@ text-decoration:underline;
 
   border: 2px solid #E5E5E6;
 
-    height: 36px;
+  height: 36px;
 
-    width: 225px;
+  width: 225px;
 
 }
 
@@ -140,13 +140,13 @@ text-decoration:underline;
 
   border: 1px solid #E5E5E6;
 
-    height: 36px;
+  height: 36px;
 
-    width: 225px;
+  width: 225px;
 
-	border-radius:5px;
+  border-radius:5px;
 
-	background-color:#E5E5E5;
+  background-color:#E5E5E5;
 
 }
 
