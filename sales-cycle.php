@@ -5,7 +5,7 @@ Plugin Name: Juiced Metrics
 Plugin URI: http://envisionyourwebsite.com
 Description: Setup is simple You can create report names below. Select the pages you would like to track with the sales cycle or your sales funnel. Trackable pages can be created to follow how traffic is reacting to your sales funnels. This will show you which pages are working and which need modification. This will help you know what to work on to gain more sales.. 
 Author: Envision Your Website
-Version: 2.5
+Version: 2.1
 Author URI: http://www.envisionyourwebsite.com
 Copyright 2014 envisionyourwebsite.com  (email : tgarner@envisionyourwebsite.com)
 This program is free software; you can redistribute it and/or modify
@@ -15,7 +15,7 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.*/
-$JuicedMetrics_db_version = "2.5";
+$JuicedMetrics_db_version = "2.1";
 include_once('manage-dp.php');
 require_once(ABSPATH . '/wp-admin/includes/plugin.php');
 require_once(ABSPATH . WPINC . '/pluggable.php');
@@ -1199,9 +1199,9 @@ if (!function_exists('echo_views')) {
 	//insert_Socialstats($post_id);
         if (update_views($post_id) == 1) {
             $views = get_views($post_id);
-             number_format_i18n($views);
+            echo number_format_i18n($views);
         } else {
-           // echo 0;
+           echo 0;
         }
     }
 }

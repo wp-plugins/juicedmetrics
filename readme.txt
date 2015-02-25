@@ -3,8 +3,8 @@ Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, EnvisionYourWebsite, w
 Donate link: http://donate.openspacesmarketing.com
 Tags: Conversion Funnels, Juiced Metrics, JuicedMetrics.com, Sales Funnel, competitor analysis, lead magnet conversion rate
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 2.5
+Tested up to: 4.1
+Stable tag: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Juiced Metrics is a website analytics reporting tool to monitor conversion rates
 
 Juiced Metrics is a Wordpress plugin that enables you to conduct simple competitive research and to monitor your website conversion rates for a few selected series of pages.  
 
-Monitor the overall relative website traffic of all websites in your market. Understand the relative engagement rates for each website.  This can allow you to tune your message and traffic strategy to engage and connect with more people and ultimately customers.
+Monitor the overall relative website traffic of all websites in your market. Understand the relative engagement rates for each website. This can allow you to tune your message and traffic strategy to engage and connect with more people and ultimately customers.
 
 Monitoring your conversion rates for a series of website pages also known a a sales funnel can help you improve sales and list building for your business.
 
@@ -24,7 +24,7 @@ Monitoring your conversion rates for a series of website pages also known a a sa
 This section describes how to install the plugin and get it set up and working.
 
 1. Login to your Wordpress website
-2. Navigate to the Plugins through the category in left column below the Dashboard. http://www.your-domain.columnom/wp-admin/plugins.php
+2. Navigate to the Plugins through the category in left column below the Dashboard. http://www.your-domain.com/wp-admin/plugins.php
 3. Select "Add New" and in the field type JuicedMetrics
 4. Download JuicedMetrics and Install the plugin
 5. Activate Plugin
@@ -61,11 +61,15 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Changelog ==
 
-= 2.5 =
+= 4.1 =
+* Fixed page views once again
+* Removed echo in value 0
+
+= 4.0 =
 * Fixed page views and time on page for the reporting data tables
 * Added save javascript
 
-= 2.1 =
+= 3.8 =
 * Fixed page views and time on page for the reporting data tables
 * Added save javascript
 
@@ -83,11 +87,15 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Upgrade Notice ==
 
-= 2.5 =
+= 4.1 =
+* Fixed page views once again
+* Removed echo in value 0
+
+= 4.0 =
 * Fixed page views and time on page for the reporting data tables
 * Added save javascript
 
-= 2.1 =
+= 3.8 =
 * Fixed page views and time on page for the reporting data tables.
 
 = 2.0 =
