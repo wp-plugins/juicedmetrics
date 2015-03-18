@@ -194,22 +194,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <table id="table" class="table table-striped table-bordered dataTable " cellspacing="0" width="100%">
 
 
