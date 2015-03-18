@@ -1,10 +1,10 @@
 === JuicedMetrics ===
 Contributors: Craig Jacobson, Jeff Gillis, Travis Garner, EnvisionYourWebsite, www.openspacesmarketing.com
 Donate link: http://donate.openspacesmarketing.com
-Tags: Conversion Funnels, Juiced Metrics, JuicedMetrics.com, Sales Funnel, competitor analysis, lead magnet conversion rate
-Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 4.1
+Tags: Conversion Funnels, Juiced Metrics, JuicedMetrics.com, Sales Funnel, Competitor Analysis, Lead Magnet Conversion Rate
+Requires at least: 4.0
+Tested up to: 4.1.1
+Stable tag: 4.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,10 @@ JuicedMetrics is in active development and version control, revisions, updates a
 
 == Changelog ==
 
+= 4.1.1 =
+* Removed some javascript
+* Removed drag n drop
+
 = 4.1 =
 * Fixed page views once again
 * Removed echo in value 0
@@ -86,6 +90,10 @@ JuicedMetrics is in active development and version control, revisions, updates a
 * Another change
 
 == Upgrade Notice ==
+
+= 4.1.1 =
+* Removed some javascript
+* Removed drag n drop
 
 = 4.1 =
 * Fixed page views once again

@@ -5,7 +5,7 @@ Plugin Name: Juiced Metrics
 Plugin URI: http://envisionyourwebsite.com
 Description: Setup is simple You can create report names below. Select the pages you would like to track with the sales cycle or your sales funnel. Trackable pages can be created to follow how traffic is reacting to your sales funnels. This will show you which pages are working and which need modification. This will help you know what to work on to gain more sales.. 
 Author: Envision Your Website
-Version: 2.1
+Version: 4.1.1
 Author URI: http://www.envisionyourwebsite.com
 Copyright 2014 envisionyourwebsite.com  (email : tgarner@envisionyourwebsite.com)
 This program is free software; you can redistribute it and/or modify
@@ -15,7 +15,7 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.*/
-$JuicedMetrics_db_version = "2.1";
+$JuicedMetrics_db_version = "4.1.1";
 include_once('manage-dp.php');
 require_once(ABSPATH . '/wp-admin/includes/plugin.php');
 require_once(ABSPATH . WPINC . '/pluggable.php');
@@ -642,6 +642,8 @@ $subreports = $wpdb->get_results("SELECT * FROM $tb1 WHERE ref_id='".$reports[0]
 		function Addcompetitor()
 		{
 			global $wpdb;
+			
+		
 			$domain_name=trim($_POST['domain_name']);
 			$twitter_id='';
 			$facebook_id=trim($_POST['facebook_id']);
@@ -667,6 +669,7 @@ $subreports = $wpdb->get_results("SELECT * FROM $tb1 WHERE ref_id='".$reports[0]
 
 		function Editcompetitor()
 		{
+			 
 			global $wpdb;
 			$domain_name=trim($_POST['domain_name']);
 			$twitter_id='';
@@ -678,6 +681,8 @@ $subreports = $wpdb->get_results("SELECT * FROM $tb1 WHERE ref_id='".$reports[0]
 	   $domain_name=str_replace('https://www.','',$domain_name);  
 	   $domain_name=str_replace('https://','',$domain_name); 
 	   $domain_name=str_replace('www.','',$domain_name); 
+	   
+	  
 			$qry="UPDATE `".$wpdb->prefix ."social_sites_config` SET 
 			website='".$domain_name."',
 			twitter_id='".$twitter_id."',
@@ -1139,13 +1144,16 @@ $fbcount=0;
 			# The @ before the method call suppresses any warnings that
 			# loadHTML might throw because of invalid HTML in the page.
 			@$dom->loadHTML($html);
-			//echo '<pre>'; print_r($dom); echo '</pre>'; 
-			if (!$dom) {
+			
+			if ($dom) {
 			$xml = simplexml_import_dom($dom);
 			$elements = $xml->xpath('//*[contains(@data-cat, "bounce_percent")]');
 			$elements1 = $xml->xpath('//*[contains(@data-cat, "pageviews_per_visitor")]');
 			$elements2 = $xml->xpath('//*[contains(@data-cat, "time_on_site")]');
 			$alexa_array=array();
+			
+			
+			
 			if(!empty($elements))
 			{
 				foreach($elements[0]->div as $element) { foreach($element as $val) {$bounce_percent=$val; break;}}
@@ -1172,10 +1180,12 @@ $fbcount=0;
 				$data = curl_exec($ch);
 				curl_close($ch);
 			$data=(array)json_decode($data);
-			//echo '<pre>'; print_r($data); echo '</pre>';
+		  
 			$pcount=intval( $data['count'] );
 		}
 	}
+	
+	
 	$table = $wpdb->prefix . "social_sites";
 	$result = $wpdb->query("UPDATE $table 
 	SET 
